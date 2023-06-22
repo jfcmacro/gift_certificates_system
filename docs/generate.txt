@@ -1,0 +1,7 @@
+mvn -DarchetypeGroupId=org.codehaus.mojo.archetypes -DarchetypeArtifactId=webapp-javaee7 -DarchetypeVersion=1.1 -DgroupId=com.epam.rd.gcs -DartifactId=gift_certificates_system -Dversion=1.0.0 -Dpackage=com.epam.esm -Darchetype.interactive=false --batch-mode archetype:generate
+
+mvn archetype:generate -DarchetypeGroupId=pl.codeleak -DarchetypeArtifactId=spring-mvc-quickstart -DarchetypeVersion=5.0.1 -DgroupId=com.epam -DartifactId=gift_certificates_system -Dversion=1.0.0 -Dpackage=com.epam.esm -DarchetypeRepository=http://kolorobot.github.io/spring-mvc-quickstart-archetype
+
+mvn archetype:generate -DarchetypeGroupId=co.ntier -DarchetypeArtifactId=spring-mvc-archetype -DarchetypeVersion=1.0.2 -DgroupId=com.epam -DartifactId=gift_certificates_system -Dversion=1.0.0 -Dpackage=com.epam.esm -DarchetypeRepository=http://repo.maven.apache.org/maven2/
+
+
